@@ -1,1 +1,0 @@
-# zoltash-fortune
