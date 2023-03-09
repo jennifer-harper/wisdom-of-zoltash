@@ -1,0 +1,77 @@
+body {
+  margin:0;
+  padding:0;
+  height: 100%;
+  background-color: #161d2b;
+  font-family: 'Raleway', serif;
+  color:#fff1db;
+  
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  margin: auto;
+  width: 100%;  
+  background-image: url(./images/bg-stars.svg); 
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.container:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-image: url(./images/bg-stars2.svg);
+    z-index: -1;
+}
+
+
+p{
+  line-height: 1.6em;
+}
+a{
+  color:#fff1db;
+}
+
+
+.home h1{
+  text-align: center;
+}
+
+.fortune-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.fortune-each a,
+.fortune-each {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  height:100%
+}
+

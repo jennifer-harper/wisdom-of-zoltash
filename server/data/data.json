@@ -1,0 +1,25 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "theme": "love",
+      "question": "Love question",
+      "answer": "Your answer",
+      "title": "Love"
+    },
+    {
+      "id": 2,
+      "theme": "spells",
+      "question": "Spells question",
+      "answer": "Your answer",
+      "title": "Spells"
+    },
+    {
+      "id": 3,
+      "theme": "numbers",
+      "question": "Numbers question",
+      "answer": "Your answer",
+      "title": "Numbers"
+    }
+  ]
+}

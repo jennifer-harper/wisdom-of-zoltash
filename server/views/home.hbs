@@ -1,0 +1,14 @@
+
+<div class="container home">
+  <h1>{{page_title}}</h1>
+<section class="fortune-wrapper">
+    {{#each show_genres}}
+      <div class="fortune-each">   
+        <a href="/fortune/{{id}}">
+        <img class="img-circle" src="images/{{theme}}.svg" alt="{{theme}}">
+        <h2>{{title}}</h2>
+        </a>
+      </div>
+    {{/each}}
+</section>
+</div>
