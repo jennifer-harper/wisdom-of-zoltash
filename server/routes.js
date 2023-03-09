@@ -5,7 +5,8 @@ const router = express.Router()
 
 
 router.get('/:id', (req, res) => {
-  const id = Number(req.params.id)
+  // const id = Number(req.params.id)
+  const id = req.params.id
 
   fs.readFile(__dirname + '/data/data.json', 'utf-8')
     .then((data) => {
@@ -31,7 +32,8 @@ router.get('/:id', (req, res) => {
 router.post('/:id/edit', (req, res) => {
   const formAnswer = req.body
   //return the id as a number, not a string
-  const id = Number(req.params.id)
+  // const id = Number(req.params.id)
+  const id = req.params.id
 
   fs.readFile(__dirname + '/data/data.json', 'utf-8')
     .then((data) => {
@@ -60,16 +62,24 @@ router.post('/:id/edit', (req, res) => {
 
 router.get('/:id/results', (req, res) => {
   
-  const id = Number(req.params.id)
+  // const id = Number(req.params.id)
+  const id = req.params.id
 
   fs.readFile(__dirname + '/data/data.json', 'utf-8')
     .then((data) => {
+
       const parsedAnswer = JSON.parse(data)
-      const theOne = parsedAnswer.genres.find((element) => element.id === id)
+      const theGenre = parsedAnswer.genres.find((element) => element.id === id)
+      const theFortune = parsedAnswer[theGenre.id]
+
+      const randomIndex = Math.floor(Math.random() * theFortune.length);
+      const randomFortune = theFortune[randomIndex];
+
 
       let dataObj ={
         page_title:"Your fortune",
-        selected_genre: theOne,        
+        selected_genre: theGenre,  
+        selected_fortune: randomFortune     
       }
 
       res.render('results', dataObj)

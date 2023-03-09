@@ -1,9 +1,9 @@
 <div class="container {{selected_genre.theme}}">
 <h1>{{page_title}}</h1>
-<img class="small" src="/images/{{selected_genre.theme}}.svg" alt="{{selected_genre.theme}}">
+<img class="small" src="/images/{{selected_genre.id}}.svg" alt="{{selected_genre.id}}">
 <section class="fortune-wrapper">
     <div class="fortune-answer">
-        <p>{{selected_fortune.fortune-one}} {{selected_genre.answer}} - this is your fortune</p>
+        <p>{{selected_fortune.fortune-one}} {{selected_genre.answer}} {{selected_fortune.fortune-two}}</p>
         <a href="/">
             <button>Try again</button>
         </a>

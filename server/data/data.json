@@ -1,59 +1,54 @@
 {
   "genres": [
     {
-      "id": 1,
-      "theme": "love",
-      "question": "Love question",
-      "answer": "vvv",
+      "id": "love",
+      "question": "What type of love are you looking for?",
+      "answer": "stupid",
       "title": "Love"
     },
     {
-      "id": 2,
-      "theme": "spells",
-      "question": "Spells question",
-      "answer": "",
-      "title": "Spells",
-      "name": "spell new thing"
+      "id": "fortune",
+      "question": "What type of fortune do you desire",
+      "answer": "x",
+      "title": "Fortune"
     },
     {
-      "id": 3,
-      "theme": "numbers",
-      "question": "Numbers question",
+      "id": "numbers",
+      "question": "What number is important to you today?",
       "answer": "ccc",
-      "title": "Numbers",
-      "name": "fffff"
+      "title": "Numbers"
     }
   ],
   "love": [
     {
       "id": 1,
-      "fortune-one": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "The universe is conspiring to bring you the love you seek (",
+      "fortune-two": "). Keep your heart open, and love will soon find its way to you. "
+    },
+    {
+      "id": 2,
+      "fortune-one": "Love is a journey, not a destination. Keep moving forward, and you will find the type of ",
+      "fortune-two": " love you're looking for."
     },
     {
       "id": 3,
-      "fortune-one": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
-    },
-    {
-      "id": 4,
-      "fortune-one": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "The love you seek is already within you. Embrace your inner ",
+      "fortune-two": "love, and watch as it attracts the perfect partner into your life."
     }
   ],
-  "spells": [
+  "fortune": [
     {
       "id": 1,
       "fortune-one": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
       "fortune-two": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
     },
     {
-      "id": 3,
+      "id": 2,
       "fortune-one": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
       "fortune-two": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
     },
     {
-      "id": 4,
+      "id": 3,
       "fortune-one": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
       "fortune-two": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
     }
@@ -61,18 +56,18 @@
   "numbers": [
     {
       "id": 1,
-      "fortune-one": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "numbers  1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
+      "fortune-two": "numbers  1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+    },
+    {
+      "id": 2,
+      "fortune-one": "numbers 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
+      "fortune-two": "numbers 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
     },
     {
       "id": 3,
-      "fortune-one": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
-    },
-    {
-      "id": 4,
-      "fortune-one": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "Tnumbers 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
+      "fortune-two": "numbers 3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
     }
   ]
 }
