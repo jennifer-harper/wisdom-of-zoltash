@@ -1,2 +1,12 @@
-<h2> results page</h2>
-<a href="/">Home</a>
+<div class="container {{selected_genre.theme}}">
+<h1>{{page_title}}</h1>
+<img class="small" src="/images/{{selected_genre.theme}}.svg" alt="{{selected_genre.theme}}">
+<section class="fortune-wrapper">
+    <div class="fortune-answer">
+        <p>{{selected_fortune.fortune-one}} {{selected_genre.answer}} - this is your fortune</p>
+        <a href="/">
+            <button>Try again</button>
+        </a>
+    </div>
+</section>
+</div>

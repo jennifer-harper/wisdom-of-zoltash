@@ -124,6 +124,7 @@ a button{
   background-color: #292de3 ;
   color: white;
   transition: background-color .3s ease-in-out;
+  border:none
 }
 
 form input[type=submit]:hover,

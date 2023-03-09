@@ -6,14 +6,12 @@
 
 
 <form class="form" action="/fortune/{{selected_genre.id}}/edit" method="post">
-  <label for="name" class="form-item">
+  <label for="answer" class="form-item">
    {{selected_genre.question}}    
   </label>
-  <input type="text" name="name" value="">
- 
+  <input type="text" name="answer" value="" required> 
   <input type="submit" name="" value="Submit" class="button">
 </form>
-
-
 </section>
 </div>
+
