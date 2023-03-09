@@ -7,6 +7,25 @@ body {
   color:#fff1db;
   
 }
+
+
+p{
+  line-height: 1.6em;
+}
+a{
+  color:#fff1db;
+}
+h1{
+  text-align: center;
+}
+
+img.small{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+
+
 .app {
   display: flex;
   flex-direction: column;
@@ -19,15 +38,12 @@ body {
   min-height: 100vh;
   justify-content: center;
   margin: auto;
-  width: 100%;  
-  background-image: url(./images/bg-stars.svg); 
+  width: 100%; 
+  text-align: center; 
+
 }
 
-@keyframes fade {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
-}
+
 
 .container:before{
   content: '';
@@ -38,23 +54,28 @@ body {
   height: 100%;
   animation-name: fade;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; 
+  z-index: -1;
+}
+
+.container.home{
+  background-image: url(./images/bg-stars.svg); 
+}
+.container.home:before{
   background-image: url(./images/bg-stars2.svg);
-    z-index: -1;
 }
 
-
-p{
-  line-height: 1.6em;
+.container.love{
+  background-color:#310414
 }
-a{
-  color:#fff1db;
+.container.spells{
+  background-color: #883e02;
 }
 
-
-.home h1{
-  text-align: center;
+.container.numbers{
+  background-color:#003027
 }
+
 
 .fortune-wrapper {
   display: flex;
@@ -75,3 +96,51 @@ a{
   height:100%
 }
 
+
+/* forms */
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  margin-bottom: 20px;
+}
+
+form input[type=submit]{
+  margin-top: 6px;
+}
+
+form input{
+  height: 40px;
+  padding: 0 30px;
+  border:none
+}
+
+form input[type=submit],
+a button{
+  font-weight: bold;
+  background-color: #292de3 ;
+  color: white;
+  transition: background-color .3s ease-in-out;
+}
+
+form input[type=submit]:hover,
+a:hover button{
+  transition: background-color .3s ease-in-out;
+  background-color:#f28c36;
+}
+
+a button{
+  padding: 20px;
+  min-width: 160px;
+}
+
+
+
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
