@@ -38,20 +38,6 @@ server.get('/', (req, res) => {
     })
 })
 
-// server.get('/:id/results', (req, res) => {
-//   fs.readFile(__dirname + '/data/data.json', 'utf-8')
-//     .then((data) => {
-//     let thing = JSON.parse(data)
-  
-//     let dataObj = {
-//       page_title: 'Fortune Time',
-//       show_genres: thing.genres
-//     }
-//       res.render('results', dataObj)
-//     })
-//     .catch((err) => {
-//       res.status(500).send(err.message)
-//     })
-// })
+
 
 module.exports = server

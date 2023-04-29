@@ -1,20 +1,14 @@
-
 <div class="container {{selected_genre.id}}">
-  <h1>{{page_title}}</h1>
+  <h1>{{page_title}}  {{selected_genre.id}}</h1>
   <img class="small" src="/images/{{selected_genre.id}}.svg" alt="{{selected_genre.id}}">
-<section class="fortune-wrapper">
-
-
-<form class="form" action="/fortune/{{selected_genre.id}}/edit" method="post">
-
-  <label for="answer" class="form-item">
-   {{selected_genre.question}}    
-  </label>
-  <input type="text" name="answer" value="" required> 
-
-  <input type="submit" name="" value="Submit" class="button">
-</form>
-
-</section>
+  <section class="fortune-wrapper">
+    <form class="form" action="/fortune/{{selected_genre.id}}/edit" method="post">
+      <label for="answer" class="form-item">
+        {{selected_genre.question}}    
+      </label>
+      <input type="text" name="answer" value="" required> 
+      <input type="submit" name="" value="Submit" class="button">
+    </form>
+  </section>
 </div>
 

@@ -14,7 +14,7 @@ router.get('/:id', (req, res) => {
       const theOne = parsedAnswer.genres.find((element) => element.id === id)
 
       let dataObj ={
-        page_title:"Get your answers",
+        page_title:"You have chosen ",
         selected_genre: theOne,
         
       }

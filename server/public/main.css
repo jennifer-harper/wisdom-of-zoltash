@@ -17,6 +17,13 @@ a{
 }
 h1{
   text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 img.small{
@@ -65,25 +72,20 @@ img.small{
   background-image: url(./images/bg-stars2.svg);
 }
 
-.container.love{
-  background-color:#310414
-}
-.container.spells{
-  background-color: #883e02;
-}
-
-.container.numbers{
-  background-color:#003027
-}
-
 
 .fortune-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
   margin: 0 auto;
   max-width: 80%;
+}
+@media (min-width:800px){
+  .fortune-wrapper{
+    flex-wrap: nowrap;
+  } 
 }
 
 .fortune-each a,
@@ -95,6 +97,20 @@ img.small{
   text-decoration: none;
   height:100%
 }
+
+.img-circle{
+  max-width: 360px;
+}
+
+.fortune-each a:hover h2{
+  letter-spacing: 6px;
+}
+
+.fortune-each a h2,
+.fortune-each a:hover h2{
+  transition: all 0.5s ease-in-out;
+}
+
 
 
 /* forms */
@@ -121,14 +137,33 @@ form input{
 form input[type=submit],
 a button{
   font-weight: bold;
-  background-color: #292de3 ;
   color: white;
   transition: background-color .3s ease-in-out;
   border:none
 }
 
-form input[type=submit]:hover,
-a:hover button{
+.container.fortune form input[type=submit],
+.container.fortune a button{
+  background-color:#4c1df6
+}
+
+.container.love form input[type=submit],
+.container.love a button{
+  background-color:#ff2ee3
+}
+
+.container.numbers form input[type=submit],
+.container.numbers a button{
+  background-color:#5effe9;
+  color:#000;
+}
+
+.fortune form input[type=submit]:hover,
+.fortune a:hover button,
+.love form input[type=submit]:hover,
+.love a:hover button,
+.numbers form input[type=submit]:hover,
+.numbers a:hover button{
   transition: background-color .3s ease-in-out;
   background-color:#f28c36;
 }
@@ -137,7 +172,6 @@ a button{
   padding: 20px;
   min-width: 160px;
 }
-
 
 
 @keyframes fade {

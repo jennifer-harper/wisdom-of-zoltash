@@ -3,19 +3,19 @@
     {
       "id": "love",
       "question": "What type of love are you looking for?",
-      "answer": "stupid",
+      "answer": "x",
       "title": "Love"
     },
     {
       "id": "fortune",
       "question": "What type of fortune do you desire",
-      "answer": "x",
+      "answer": "good",
       "title": "Fortune"
     },
     {
       "id": "numbers",
       "question": "What number is important to you today?",
-      "answer": "ccc",
+      "answer": "3",
       "title": "Numbers"
     }
   ],
