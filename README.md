@@ -1,5 +1,4 @@
-# zoltash-fortune
-# wisdom-of-zoltash
+# zoltash-fortune/ wisdom-of-zoltash
 
 // Finished project https://wisdom-of-zoltash.devacademy.nz/
 
