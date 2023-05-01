@@ -1,5 +1,5 @@
 # zoltash-fortune/ wisdom-of-zoltash
-
+/ Original Group project https://github.com/kahu-2023/wisdom-of-zoltash
 / PROJECT: THE WISDOM OF ZOLTASH
 
 //  Page description: step right up, and prepare to be dazzled by these super accurate fortune telling feats. The page will ask you a question, then populate to another
