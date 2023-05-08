@@ -1,9 +1,9 @@
 {
-  "name": "pupparazzi",
+  "name": "Wisdom of Zoltash",
   "version": "2.0.0",
-  "description": "Challenge to learn server side rendering and callbacks",
+  "description": "Personal project to learn server side rendering and callbacks",
   "main": "index.js",
-  "author": "Dev Academy Aotearoa",
+  "author": "Jennifer Harper at Dev Academy Aotearoa",
   "license": "ISC",
   "scripts": {
     "start": "node server/index",
@@ -12,13 +12,13 @@
     "test": "jest --watchAll",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
-  "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
+  "homepage": "https://github.com/jennifer-harper/wisdom-of-zoltash#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
+    "url": "git+https://github.com/jennifer-harper/wisdom-of-zoltash.git"
   },
   "bugs": {
-    "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
+    "url": "https://github.com/jennifer-harper/wisdom-of-zoltash/issues"
   },
   "eslintConfig": {
     "extends": "@devacademy"
