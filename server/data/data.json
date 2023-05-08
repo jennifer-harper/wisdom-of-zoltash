@@ -9,7 +9,7 @@
     {
       "id": "fortune",
       "question": "What type of fortune do you desire",
-      "answer": "good",
+      "answer": "happy",
       "title": "Fortune"
     },
     {
@@ -39,35 +39,35 @@
   "fortune": [
     {
       "id": 1,
-      "fortune-one": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "One Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "The universe is aligning to bring you opportunities for  ",
+      "fortune-two": "and stability. Keep your eyes open and be ready to take advantage of any chances that come your way. With hard work and perseverance, your situation will continue to improve and flourish."
     },
     {
       "id": 2,
-      "fortune-one": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "As you consider the word ",
+      "fortune-two": "and what it means to you, your fortune today is focused on growth and expansion. The universe is supporting you as you step outside of your comfort zone and explore new possibilities. Embrace the unknown and trust that you are on the right path. By taking risks and pushing yourself to new heights, you will discover new strengths and capabilities within yourself."
     },
     {
       "id": 3,
-      "fortune-one": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "Three Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "Your fortune today is all about balance and harmony in relation to the word ",
+      "fortune-two": "You may be feeling pulled in different directions or struggling to find your center. The universe is reminding you to take time for self-care and to prioritize your own needs. When you are in balance, everything else falls into place. Trust that the universe is supporting you as you find your way back to center."
     }
   ],
   "numbers": [
     {
       "id": 1,
-      "fortune-one": "numbers  1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "numbers  1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "Congratulations! The number you entered, ",
+      "fortune-two": "is the answer to the ultimate question of life, the universe, and everything. This means that you are destined for greatness and success. Keep pushing forward and you will achieve all of your dreams and goals"
     },
     {
       "id": 2,
-      "fortune-one": "numbers 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "numbers 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "Your chosen number ",
+      "fortune-two": "is a powerful symbol of balance and stability. This is a reminder to take care of yourself and to focus on creating harmony in your life. Take time to rest, recharge, and find ways to bring balance to your work, relationships, and personal pursuits. When you are in alignment with yourself, everything else will fall into place."
     },
     {
       "id": 3,
-      "fortune-one": "Tnumbers 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae",
-      "fortune-two": "numbers 3  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veniam, facilis esse nobis, odit tempore adipisci repellendus facere suscipit officiis sed ipsa praesentium quae ut rem, quaerat mollitia doloribus vitae"
+      "fortune-one": "By choosing the number ",
+      "fortune-two": "you are signaling a strong desire for success and achievement. This is a time to focus on your goals and push yourself to reach new heights. Don't be afraid to dream big and to take bold action toward your aspirations. With hard work, dedication, and a positive attitude, you can achieve anything you set your mind to."
     }
   ]
 }

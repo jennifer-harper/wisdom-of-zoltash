@@ -39,18 +39,39 @@ img.small{
   justify-content: center;
   margin: 0;
 }
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+}
+.logo:hover{
+  letter-spacing: 6px;
+  transition: all 0.5s ease-in-out;
+}
+.logo:hover img{
+  animation: rotation 2s;
+}
+
+.logo img{
+  max-width: 80px;
+  margin-right: 20px;
+}
+
 .container{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: calc(100vh - 90px);
   justify-content: center;
   margin: auto;
   width: 100%; 
   text-align: center; 
-
 }
-
-
 
 .container:before{
   content: '';
@@ -66,6 +87,7 @@ img.small{
 }
 
 .container.home{
+  min-height: 100vh;
   background-image: url(./images/bg-stars.svg); 
 }
 .container.home:before{
@@ -101,6 +123,7 @@ img.small{
 .img-circle{
   max-width: 360px;
 }
+
 
 .fortune-each a:hover h2{
   letter-spacing: 6px;
@@ -178,4 +201,13 @@ a button{
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
